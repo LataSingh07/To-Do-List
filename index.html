@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To DO list</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+    <div class="conatiner">
+        <h1>MY TO DO LIST</h1>
+        <div class="inputsection">
+        <input type="text" placeholder="Add a new task" class="place">
+        <button onclick="Addtask">ADD</button>
+        </div>
+        <div class="filter">
+            <button onclick="setfilter('all')">All</button>
+            <button onclick="setfilter('completed')">Completed</button>
+            <button onclick="setfilter('pending')">Pending</button>
+        </div>
+        <ul id="tasklist"></ul>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
