@@ -4,6 +4,7 @@ body {
     display: flex;
     justify-content: center;
     padding: 50px;
+    border-radius: 10px;
   }
   
   .container {
@@ -41,6 +42,8 @@ body {
     color: white;
     border-radius: 5px;
     cursor: pointer;
+    gap: 2px;
+    margin-top: 5px;
   }
   
   button:hover {
@@ -51,10 +54,12 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    gap: ;
   }
   
   .filters button.active {
     background-color: #007bff;
+    flex-wrap: wrap;
   }
   
   ul {

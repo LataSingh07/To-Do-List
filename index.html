@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="mystyle.css">
 </head>
 <body>
-    <div class="conatiner">
+    <div class="container">
         <h1>MY TO DO LIST</h1>
         <div class="inputsection">
-        <input type="text" placeholder="Add a new task" class="place">
-        <button onclick="Addtask">ADD</button>
+            <input type="text" id="taskInput" placeholder="Add a new task" class="place">
+            <button onclick="Addtask()">ADD</button>
         </div>
         <div class="filter">
             <button onclick="setfilter('all')">All</button>
@@ -21,6 +21,5 @@
         <ul id="tasklist"></ul>
     </div>
     <script src="script.js"></script>
-    
 </body>
 </html>
